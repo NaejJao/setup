@@ -10,3 +10,4 @@ nix profile install nixpkgs#fzf
 nix profile install nixpkgs#zoxide
 nix profile install nixpkgs#starship
 
+cp -r .config ~/
