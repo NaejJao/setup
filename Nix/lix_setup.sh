@@ -12,5 +12,6 @@ nix profile install nixpkgs#bat
 nix profile install nixpkgs#fzf
 nix profile install nixpkgs#zoxide
 nix profile install nixpkgs#starship
+nix profile install nixpkgs#dysk
 
 cp -r .config ~/
