@@ -5,6 +5,7 @@ curl -sSf -L https://install.lix.systems/lix | sh -s -- install
 source ~/.bashrc
 
 # install base packages
+nix profile install nixpkgs#trash-cli
 nix profile install nixpkgs#fastfetch
 nix profile install nixpkgs#mc
 nix profile install nixpkgs#htop
